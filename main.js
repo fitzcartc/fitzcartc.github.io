@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // initialize MindAR 
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
-      imageTargetSrc: './targets/power_button.mind',
+      imageTargetSrc: './targets/power_mac.mind',
     });
     const {renderer, scene, camera} = mindarThree;
 
